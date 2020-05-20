@@ -282,6 +282,16 @@ def appoinment_details():
    s = cur.fetchall()
    return render_template('appoinment_details.html', data=s)
    #return render_template('doctor_account.html')
+from Tkinter import *
+from PIL import ImageTk
+
+canvas = Canvas(width = 200, height = 200, bg = 'blue')
+canvas.pack(expand = YES, fill = BOTH)
+
+image = ImageTk.PhotoImage(file = "https://www.google.com/url?sa=i&url=https%3A%2F%2Fhi.guru%2Fhow-chatbots-can-help-reduce-customer-service-costs-by-30%2F&psig=AOvVaw355m6XiBVoSDOR0jchJCYD&ust=1590077548985000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCJikv8_qwukCFQAAAAAdAAAAABAD")
+canvas.create_image(10, 10, image = image, anchor = NW)
+
+mainloop()
 
 if __name__ == '__main__':
    app.secret_key = os.urandom(12)
