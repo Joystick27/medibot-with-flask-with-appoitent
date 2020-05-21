@@ -20,17 +20,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="548e943f-8ac6-423d-84d4-3dd7f5793ff6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/allergy.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/burn.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/dengue.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/a.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/c.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chatbot_database" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot_database" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/college_doctor.py" beforeDir="false" afterPath="$PROJECT_DIR$/college_doctor.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/botprofile.yml" beforeDir="false" afterPath="$PROJECT_DIR$/data/botprofile.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/appoinment.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/appoinment.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/doctor_login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/doctor_login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/doctor_register.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/doctor_register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/user_login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/user_login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/user_register.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/user_register.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -213,25 +213,25 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1899" height="369" key="GridCell.Tab.0.bottom" timestamp="1590036255018">
+    <state width="1899" height="181" key="GridCell.Tab.0.bottom" timestamp="1590036862867">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1899" height="369" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1590036255018" />
+    <state width="1899" height="181" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1590036862867" />
     <state width="1899" height="254" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1589997240684" />
-    <state width="1899" height="369" key="GridCell.Tab.0.center" timestamp="1590036255018">
+    <state width="1899" height="181" key="GridCell.Tab.0.center" timestamp="1590036862866">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1899" height="369" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1590036255018" />
+    <state width="1899" height="181" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1590036862866" />
     <state width="1899" height="254" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1589997240684" />
-    <state width="1899" height="369" key="GridCell.Tab.0.left" timestamp="1590036255018">
+    <state width="1899" height="181" key="GridCell.Tab.0.left" timestamp="1590036862866">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1899" height="369" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1590036255018" />
+    <state width="1899" height="181" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1590036862866" />
     <state width="1899" height="254" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1589997240684" />
-    <state width="1899" height="369" key="GridCell.Tab.0.right" timestamp="1590036255018">
+    <state width="1899" height="181" key="GridCell.Tab.0.right" timestamp="1590036862867">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1899" height="369" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1590036255018" />
+    <state width="1899" height="181" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1590036862867" />
     <state width="1899" height="254" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1589997240684" />
     <state x="461" y="170" key="SettingsEditor" timestamp="1589806271035">
       <screen x="0" y="0" width="1920" height="1050" />
