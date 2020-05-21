@@ -1,14 +1,17 @@
 {% extends "layout.html" %}
 {% block content %}
+<div>
+  <img src="{{url_for('static', filename='b.jpg')}}" width="100%" height="100%" />
+      <img src="{{url_for('static', filename='a.png')}}" width="50" height="50"  style="position: absolute; top: 20px; left: 10px;" />
   <form action="/user_register" method="post">
 
-    <div class="container">
+    <div class="container" style="position: absolute; top: 100px; left: 5%">
         <label for="uname"><b>Username</b></label>
       <input type="text" placeholder="Enter Name" name="uname" >
-
+      <br><br>
       <label for="email"><b>User Email</b></label>
       <input type="text" placeholder="Enter Email" name="email" >
-
+      <br><br>
       <label for="psw"><b>Password</b></label>
       <input type="password" placeholder="Enter Password" name="psw" >
 
@@ -17,10 +20,10 @@
 
         <label for="age"><b>Age</b></label>
         <input type="text" placeholder="Enter your age" name="age" />
-
+        <br><br>
         <button type="submit">Submit</button>
 
-
+      </div>
     </div>
 
   </form>
