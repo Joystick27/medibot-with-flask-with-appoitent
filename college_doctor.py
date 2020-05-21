@@ -222,25 +222,25 @@ S1Lb = Label(root, text="Area----------------------------------->",
              fg="white", bg="darkBlue")
 S1Lb.grid(row=7, column=0, pady=10, sticky=W)
 
-S2Lb = Label(root, text="Symptom 2----------------------------------->",
+S2Lb = Label(root, text="Symptom 1----------------------------------->",
              fg="white", bg="darkBlue")
 S2Lb.grid(row=8, column=0, pady=10, sticky=W)
 
-S3Lb = Label(root, text="Symptom 3----------------------------------->",
+S3Lb = Label(root, text="Symptom 2----------------------------------->",
              fg="white", bg="darkBlue")
 S3Lb.grid(row=9, column=0, pady=10, sticky=W)
 
-S4Lb = Label(root, text="Symptom 4----------------------------------->",
+S4Lb = Label(root, text="Symptom 3----------------------------------->",
              fg="white", bg="darkBlue")
 S4Lb.grid(row=10, column=0, pady=10, sticky=W)
 
-S5Lb = Label(root, text="Symptom 5----------------------------------->",
+S5Lb = Label(root, text="Symptom 4----------------------------------->",
              fg="white", bg="darkBlue")
 S5Lb.grid(row=11, column=0, pady=10, sticky=W)
 
 
-lrLb = Label(root, text="Decision Tree:", fg="white", bg="darkBlue")
-lrLb.grid(row=15, column=0, pady=10, sticky=W)
+# lrLb = Label(root, text="Decision Tree:", fg="white", bg="darkBlue")
+# lrLb.grid(row=15, column=0, pady=10, sticky=W)
 
 #destreeLb = Label(root, text="Random Forest:", fg="white", #bg="darkBlue")
 #destreeLb.grid(row=17, column=0, pady=10, sticky=W)
@@ -270,7 +270,7 @@ S5En = OptionMenu(root, Symptom5, *OPTIONS)
 S5En.grid(row=11, column=1)
 
 
-dst = Button(root, text="Decision Tree",
+dst = Button(root, text="Predict",
              command=DecisionTree, bg="red", fg="white")
 dst.grid(row=8, column=3, padx=10)
 
