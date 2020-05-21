@@ -3,19 +3,24 @@
   <head>
     <link rel="stylesheet" type="text/css" href="/static/style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    
   </head>
-  <body>
+  <body style="background-color: #A1FA5F">
+
     <h1>Automated Healthcare Chatbot</h1>
     <div>
       <div id="chatbox">
         <p class="botText"><span>Please try typing full sentences as I am still learning!</span></p>
         <p class="botText"><span>I am a chatbot. You can begin conversation by typing in a message and pressing enter.</span></p>
+
         <p class="botText"><span>Hi There! What is your name?</span></p>
       </div>
       <div id="userInput">
-        <input id="textInput" type="text" name="msg" placeholder="Message">
-        <input id="buttonInput" type="submit" value="Send">
-        <a href="/logout">Logout</a>
+        <input id="textInput" type="text" name="msg" placeholder="Message" style="background-color: #A1FA5F;">
+        <input id="buttonInput" type="submit" value="Send" style="background-color: #46A005; border-color: #234B06;">
+        <br>
+        <br>
+        <a href="/logout"><button style=" width: 100%; height: 30px; background-color: #F17E03; border-color: #234B06; font-family: bold;">Logout</button></a>
       </div>
       <script>
         function getBotResponse() {

@@ -11,20 +11,30 @@
             {% endif %}
     {% endwith %}
     </div></center>
+    <div>
+      <img src="{{url_for('static', filename='a.jpg')}}" width="100%" height="100%" />
+      <img src="{{url_for('static', filename='a.png')}}" width="50" height="50"  style="position: absolute; top: 20px; left: 10px;" />
+   
 <form action="/doctor_login" method="post">
-
-    <div class="container">
-      <label for="email"><b>Doctor name</b></label>
+     
+    <div class="container" style="position: absolute; top: 20px; left: 40%;">
+      <h2></h2>
+      <br><br><br><br>
+      <label for="email"><b>User Email</b></label>
+      
       <input type="text" placeholder="Enter Email" name="email" >
-
+      <br><br>
       <label for="psw"><b>Password</b></label>
+      
       <input type="password" placeholder="Enter Password" name="psw" >
-
+      <br><br>
       <button type="submit">Login</button>
-      <label><b>New user</b></label>
-            <a href="/doctor_register" class ='btn2' type="submit">register</a>
+      <br><br><br>
+        <label><b>New user</b></label>
+        <br><br>
+           <button><a href="/doctor_register" type="submit" style="color: red;">register</a></button>
 
     </div>
-
+ </div>
   </form>
 {% endblock content %}
