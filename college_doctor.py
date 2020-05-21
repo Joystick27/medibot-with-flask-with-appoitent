@@ -192,7 +192,7 @@ def NaiveBayes():
 
 root = Tk()
 root.configure(background='darkBlue')
-root.title("College Doctor")
+root.title("Disease Predictor")
 
 # entry variables
 Symptom1 = StringVar()
@@ -209,7 +209,7 @@ Name = StringVar()
 
 # Heading
 w2 = Label(root, justify=LEFT,
-           text="College Doctor", fg="white", bg="darkBlue")
+           text="Predictor your disease here!!!!!!!!", fg="white", bg="darkBlue")
 w2.config(font=("Calibri", 30))
 w2.grid(row=1, column=0, columnspan=2, padx=100)
 
@@ -218,23 +218,23 @@ NameLb = Label(root, text="Name of the Patient", fg="white", bg="darkBlue")
 NameLb.grid(row=6, column=0, pady=15, sticky=W)
 
 
-S1Lb = Label(root, text="Area----------------------------------->",
+S1Lb = Label(root, text="Symptom 1----------------------------------->",
              fg="white", bg="darkBlue")
 S1Lb.grid(row=7, column=0, pady=10, sticky=W)
 
-S2Lb = Label(root, text="Symptom 1----------------------------------->",
+S2Lb = Label(root, text="Symptom 2----------------------------------->",
              fg="white", bg="darkBlue")
 S2Lb.grid(row=8, column=0, pady=10, sticky=W)
 
-S3Lb = Label(root, text="Symptom 2----------------------------------->",
+S3Lb = Label(root, text="Symptom 3----------------------------------->",
              fg="white", bg="darkBlue")
 S3Lb.grid(row=9, column=0, pady=10, sticky=W)
 
-S4Lb = Label(root, text="Symptom 3----------------------------------->",
+S4Lb = Label(root, text="Symptom 4----------------------------------->",
              fg="white", bg="darkBlue")
 S4Lb.grid(row=10, column=0, pady=10, sticky=W)
 
-S5Lb = Label(root, text="Symptom 4----------------------------------->",
+S5Lb = Label(root, text="Symptom 5----------------------------------->",
              fg="white", bg="darkBlue")
 S5Lb.grid(row=11, column=0, pady=10, sticky=W)
 

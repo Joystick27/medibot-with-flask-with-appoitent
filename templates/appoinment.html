@@ -1,8 +1,12 @@
 {% extends "layout.html" %}
 {% block content %}
+<div>
+      <img src="{{url_for('static', filename='a.jpg')}}" width="100%" height="100%" />
+      <img src="{{url_for('static', filename='a.png')}}" width="50" height="50"  style="position: absolute; top: 20px; left: 10px;" />
   <form action="/appoinment" method="post">
 
-    <div class="container">
+    <div class="container" style="position: absolute; top: 20px; left: 40%;">
+      <br><br><br><br><br>
         <label for="uname"><b>name</b></label>
       <input type="text" placeholder="Enter Name" name="name" >
 
@@ -16,7 +20,7 @@
         <input type="text" placeholder="" name="hospital" />
 
         <button type="submit">Submit</button>
-
+      </div>
 
     </div>
 

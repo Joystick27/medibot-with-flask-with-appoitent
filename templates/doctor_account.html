@@ -12,10 +12,9 @@
 
     <div class="topnav">
 
-         <form action="/logoutd" method="POST">
-             <a><button type="submit" class="btn">Sign out</button></a>
-         </form>
-            <a  href="/appoinment_details"><button class="active">appointment details</button></a>
+             <a href="/doctor_login"><button type="submit" class="btn">Sign out</button></a>
+            <a  href="/appoinment_details"><button>appointment details</button></a>
+             <a href="/home"><button>Home</button></a>
             <input type="hidden" name="email" value="{{a}}">
     </div>
     <center><div>{% with messages = get_flashed_messages(with_categories=true) %}
@@ -28,20 +27,15 @@
             {% endif %}
     {% endwith %}</div></center>
 
+<img src="{{url_for('static', filename='a.png')}}" width="50" height="50"  style="position: absolute; top: 20px; left: 10px;" />
 
-
-<h2>Name : {{ b[0][1] }}</h2><br>
-<p>Email ID : {{ b[0][2] }}</p><br>
-<p>Password : {{ b[0][3] }}</p><br>
-<p>Gender : {{ b[0][4] }}</p><br>
-<p>Specialist : {{ b[0][5] }}</p><br>
+<h2>Name : {{ b[0][1] }}</h2>
+<p>Email ID : {{ b[0][2] }}</p>
+<p>Password : {{ b[0][3] }}</p>
+<p>Gender : {{ b[0][4] }}</p>
+<p>Specialist : {{ b[0][5] }}</p>
 <p>Address : {{ b[0][7] }}</p>
 <a href="/doctor_livechat">chat</a>
-<form action="/doctor_account" method="POST">
 
-             <a><button type="submit" class="btn">Edit Details</button></a>
-            <input type="hidden" name="email" value="{{a}}">
-
-    </form>
 </body>
 </html>
