@@ -1,7 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="548e943f-8ac6-423d-84d4-3dd7f5793ff6" name="Default Changelist" comment="" />
+    <list default="true" id="548e943f-8ac6-423d-84d4-3dd7f5793ff6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/allergy.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/burn.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/dengue.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatbot_database" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot_database" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/college_doctor.py" beforeDir="false" afterPath="$PROJECT_DIR$/college_doctor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/botprofile.yml" beforeDir="false" afterPath="$PROJECT_DIR$/data/botprofile.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/appoinment.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/appoinment.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,13 +45,18 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1TZ4Y8WkhAFMo2yMIhJTlLDCTyE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
@@ -37,7 +72,7 @@
     </key>
   </component>
   <component name="RunManager" selected="Python.main_1">
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="college_doctor" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="medibot" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -49,7 +84,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/college_doctor.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -121,7 +156,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="run" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="train" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="medibot" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -133,7 +168,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/train.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -145,10 +180,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.main_1" />
+        <item itemvalue="Python.college_doctor" />
+        <item itemvalue="Python.train" />
         <item itemvalue="Python.pyclient" />
         <item itemvalue="Python.pyserve" />
-        <item itemvalue="Python.main" />
-        <item itemvalue="Python.run" />
       </list>
     </recent_temporary>
   </component>
@@ -165,23 +200,39 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1899" height="254" key="GridCell.Tab.0.bottom" timestamp="1589980279848">
+    <state width="1899" height="369" key="GridCell.Tab.0.bottom" timestamp="1590036255018">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1899" height="254" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1589980279848" />
-    <state width="1899" height="254" key="GridCell.Tab.0.center" timestamp="1589980279848">
+    <state width="1899" height="369" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1590036255018" />
+    <state width="1899" height="254" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1589997240684" />
+    <state width="1899" height="369" key="GridCell.Tab.0.center" timestamp="1590036255018">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1899" height="254" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1589980279848" />
-    <state width="1899" height="254" key="GridCell.Tab.0.left" timestamp="1589980279848">
+    <state width="1899" height="369" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1590036255018" />
+    <state width="1899" height="254" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1589997240684" />
+    <state width="1899" height="369" key="GridCell.Tab.0.left" timestamp="1590036255018">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1899" height="254" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1589980279848" />
-    <state width="1899" height="254" key="GridCell.Tab.0.right" timestamp="1589980279848">
+    <state width="1899" height="369" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1590036255018" />
+    <state width="1899" height="254" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1589997240684" />
+    <state width="1899" height="369" key="GridCell.Tab.0.right" timestamp="1590036255018">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1899" height="254" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1589980279848" />
+    <state width="1899" height="369" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1590036255018" />
+    <state width="1899" height="254" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1589997240684" />
     <state x="461" y="170" key="SettingsEditor" timestamp="1589806271035">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>

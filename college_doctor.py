@@ -113,7 +113,7 @@ def DecisionTree():
 
     if (h == 'yes'):
         t1.delete("1.0", END)
-        t1.insert(END, disease[a] + " Accuracy: " + str(accuracy) + "%")
+        t1.insert(END, disease[a])
     else:
         t1.delete("1.0", END)
         t1.insert(END, "Not Found")
@@ -245,8 +245,8 @@ lrLb.grid(row=15, column=0, pady=10, sticky=W)
 #destreeLb = Label(root, text="Random Forest:", fg="white", #bg="darkBlue")
 #destreeLb.grid(row=17, column=0, pady=10, sticky=W)
 
-ranfLb = Label(root, text="Naive Bayes:", fg="white", bg="darkBlue")
-ranfLb.grid(row=19, column=0, pady=10, sticky=W)
+# ranfLb = Label(root, text="Naive Bayes:", fg="white", bg="darkBlue")
+# ranfLb.grid(row=19, column=0, pady=10, sticky=W)
 
 # entries
 OPTIONS = sorted(l1)
@@ -278,9 +278,9 @@ dst.grid(row=8, column=3, padx=10)
 #             command=randomforest, bg="red", fg="white")
 #rnf.grid(row=9, column=3, padx=10)
 
-lr = Button(root, text="Naive Bayes",
-            command=NaiveBayes, bg="red", fg="white")
-lr.grid(row=10, column=3, padx=10)
+# lr = Button(root, text="Naive Bayes",
+#             command=NaiveBayes, bg="red", fg="white")
+# lr.grid(row=10, column=3, padx=10)
 
 # textfileds
 t1 = Text(root, height=1, width=40, bg="white", fg="black")
@@ -289,7 +289,7 @@ t1.grid(row=15, column=1, padx=10)
 #t2 = Text(root, height=1, width=40, bg="white", fg="black")
 #t2.grid(row=17, column=1, padx=10)
 
-t3 = Text(root, height=1, width=40, bg="white", fg="black")
-t3.grid(row=19, column=1, padx=10)
+# t3 = Text(root, height=1, width=40, bg="white", fg="black")
+# t3.grid(row=19, column=1, padx=10)
 
 root.mainloop()
