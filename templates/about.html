@@ -5,6 +5,64 @@
 
 
         </article>
+        <img src="{{url_for('static', filename='a.png')}}" width="100" height="100"  style="position: absolute; top: 50px; left: 10px;" />
          <div class="form-group">
          </div>
+         <img src="{{url_for('static', filename='ab.jpg')}}" width="100%" height="120%"/>
+         <pre style="position: absolute; top: 150px; left: 10px; font-family: cursive;">
+    MediBot is created in 2019-20 is a chatbot enabled healthcare system. 
+    MediBot is a chatbot. You tell the bot your symptoms, and it gives 
+    you a possible diagnosis. Then, it will help you book an appointment.
+    Feel free to email us with any questions you may have.
+</pre>
+<div style="position: absolute; left: 10px; top: 250px;">
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+
+  <img src="{{url_for('static', filename='1.jpg')}}" align="middle" width="500" height="200" />
+
+</div>
+
+<div class="mySlides fade">
+
+  <img src="{{url_for('static', filename='2.jpg')}}" align="middle" width="500" height="200" />
+</div>
+
+<div class="mySlides fade">
+
+  <img src="{{url_for('static', filename='3.jpg')}}" align="middle" width="500" height="200" />
+</div>
+
+<div class="mySlides fade">
+
+  <img src="{{url_for('static', filename='4.jpg')}}" align="middle" width="500" height="200" />
+</div>
+<div class="mySlides fade">
+
+  <img src="{{url_for('static', filename='5.jpg')}}" align="middle" width="500" height="200" />
+</div>
+
+</div>
+
+<div style="text-align:center">
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+</div>
+<script src="{{url_for('static', filename='login.js')}}"></script>
+
+<script src="{{url_for('static', filename='main.js')}}"></script>
+</div>
+<pre style="position: absolute; left: 400px; top: 300px; font-family: serif;">                                 Contact us: Mobile: +91-86788-91384
+						                 +91-91487-59877
+
+				 Email id:  medibot.healthcare@gmail.com
+
+				 Facebook:  https://www.facebook.com/medibot.healthcare.7
+
+				 Twitter :  https://twitter.com/MedibotH</pre>
+<p style="text-align: center;">Copyright © 2020. Medibot Healthcare Solution. All Rights Reserved. Privacy Policy</p>
 {% endblock content %}

@@ -1,13 +1,43 @@
+
 <!DOCTYPE html>
 <html>
   <head>
     <link rel="stylesheet" type="text/css" href="/static/style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='main.css') }}">
+    
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='login.css') }}">
+    <meta charset="UTF-8">
+     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='account.css') }}">
     
   </head>
-  <body style="background-color: #A1FA5F">
+  <body style="background-color: #49C2E5">
 
-    <h1>Automated Healthcare Chatbot</h1>
+<div class="topnav">
+      <a href="about">About</a>
+
+
+    <a href="user_login">User</a>
+
+    <a href="doctor_login">Doctor</a>
+
+    <a href="/home">Home</a>
+</div>
+     <a href = "mailto:medibot.healthcare@gmail.com?subject = Feedback&body = Message">
+<img src="{{url_for('static', filename='mail.png')}}" width="25" height="23" style="position: absolute; left: 80px; top: 10px;">
+</a>
+    <a href = "https://www.facebook.com/medibot.healthcare.7">
+<img src="{{url_for('static', filename='f.png')}}" width="30" height="30" style="position: absolute; left: 120px; top: 10px;">
+</a>
+    <a href = "https://twitter.com/MedibotH">
+<img src="{{url_for('static', filename='t.png')}}" width="25" height="23" style="position: absolute; left: 170px; top: 13px;">
+</a>
+
+<img src="{{url_for('static', filename='a.jpg')}}" width="110%" height="500%" style="background-repeat: repeat;" ><img src="{{url_for('static', filename='a.jpg')}}" width="110%" height="500%" style="background-repeat: repeat;" >
+<img src="{{url_for('static', filename='a.jpg')}}" width="110%" height="500%" style="background-repeat: repeat;" >
+<img src="{{url_for('static', filename='a.jpg')}}" width="110%" height="500%" style="background-repeat: repeat;" >
+<div style="position: absolute; top: 2px; left: 200px; ">
+    <h1 style="color: white;">Automated Healthcare Chatbot</h1>
     <div>
       <div id="chatbox">
         <p class="botText"><span>Please try typing full sentences as I am still learning!</span></p>
@@ -16,12 +46,13 @@
         <p class="botText"><span>Hi There! What is your name?</span></p>
       </div>
       <div id="userInput">
-        <input id="textInput" type="text" name="msg" placeholder="Message" style="background-color: #A1FA5F;">
-        <input id="buttonInput" type="submit" value="Send" style="background-color: #46A005; border-color: #234B06;">
+        <input id="textInput" type="text" name="msg" placeholder="Message" >
+        <input id="buttonInput" type="submit" value="Send" >
         <br>
         <br>
-        <a href="/logout"><button style=" width: 100%; height: 30px; background-color: #F17E03; border-color: #234B06; font-family: bold;">Logout</button></a>
+        <a href="/logout"><button style=" font-family: bold;">Logout</button></a>
       </div>
+    </div>
       <script>
         function getBotResponse() {
           var rawText = $("#textInput").val();

@@ -19,8 +19,16 @@
     <a href="doctor_login">Doctor</a>
 
     <a href="/home">Home</a>
-
 </div>
+     <a href = "mailto:medibot.healthcare@gmail.com?subject = Feedback&body = Message">
+<img src="{{url_for('static', filename='mail.png')}}" width="25" height="23" style="position: absolute; left: 80px; top: 10px;">
+</a>
+    <a href = "https://www.facebook.com/medibot.healthcare.7">
+<img src="{{url_for('static', filename='f.png')}}" width="30" height="30" style="position: absolute; left: 120px; top: 10px;">
+</a>
+    <a href = "https://twitter.com/MedibotH">
+<img src="{{url_for('static', filename='t.png')}}" width="25" height="23" style="position: absolute; left: 170px; top: 13px;">
+</a>
 
           {% block content %}{% endblock %}
 

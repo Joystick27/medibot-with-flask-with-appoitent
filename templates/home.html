@@ -7,7 +7,7 @@
 
     <title>{{ title }}</title>
 </head>
-<body>
+<body style="background-color: #98D4C3;">
 
 <div class="topnav">
 
@@ -19,11 +19,20 @@
     <a href="doctor_login"><button onclick="document.getElementById('id02').style.display='block'">Doctor</button></a>
 
     <a  href="/home"><button>Home</button></a>
+     <a href = "mailto:medibot.healthcare@gmail.com?subject = Feedback&body = Message">
+<img src="{{url_for('static', filename='mail.png')}}" width="25" height="23" style="position: absolute; left: 30px; top: 10px;">
+</a>
+    <a href = "https://www.facebook.com/medibot.healthcare.7?subject = Feedback&body = Message">
+<img src="{{url_for('static', filename='f.png')}}" width="30" height="30" style="position: absolute; left: 80px; top: 10px;">
+</a>
+    <a href = "https://twitter.com/MedibotH">
+<img src="{{url_for('static', filename='t.png')}}" width="25" height="23" style="position: absolute; left: 130px; top: 13px;">
+</a>
 
 </div>
 
 
-<div class="slideshow-container">
+<div class="slideshow-container" style="position: absolute; top: 30px;" >
 
 <div class="mySlides fade">
 
@@ -46,7 +55,7 @@
   <img src="{{url_for('static', filename='z1.jpg')}}" align="middle" />
 </div>
 
-</div>
+
 <br>
 
 <div style="text-align:center">
@@ -55,11 +64,13 @@
   <span class="dot"></span>
   <span class="dot"></span>
 </div>
+</div>
 <script src="{{url_for('static', filename='login.js')}}"></script>
 
 <script src="{{url_for('static', filename='main.js')}}"></script>
 
 </div>
+<img src="{{url_for('static', filename='r.gif')}}" width="400" height="400"  style="position: absolute; bottom: 20px; right: 10px;"/>
 </body>
 
 </html>
