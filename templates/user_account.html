@@ -9,13 +9,16 @@
 <body>
 <div class="topnav">
   <a class="active" href>
-      <a class="active" href="/appoinment">appoinment</a>>
-      <a class="active" href="/medicine_predictor">medicine</a>>
-  <a class="active" href="/logout">logout</a>
+      <a class="active" href="/logout">logout</a>
+      <a class="active" href="/appoinment">appoinment</a>
+      <a class="active" href="/medicine_predictor">medicine</a>
+      
+
+  
 
 </div>
-
-   <div class="row">
+<img src="{{url_for('static', filename='a.png')}}" width="50" height="50"  style="position: absolute; top: 20px; left: 10px;" />
+   <div class="row" >
        {% for i in data %}
   <div class="column">
     <div class="card">
@@ -39,11 +42,8 @@
     {% endfor %}
    </div>
 
-<div class="callout">
-  <div class="callout-header"></div>
-  <span class="closebtn" onclick="this.parentElement.style.display='none';">×</span>
-  <div class="callout-container">
-    <p><a href="/chatbot">chatbot</a> </p>
+
+    <p><a href="/chatbot"><img src="{{url_for('static', filename='r.gif')}}" width="200" height="200"  style="position: absolute; bottom: 20px; right: 10px;"/></a></p>
   </div>
 </div>
 
