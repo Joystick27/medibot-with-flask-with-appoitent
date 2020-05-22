@@ -20,21 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="548e943f-8ac6-423d-84d4-3dd7f5793ff6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/data/acne.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/covid19.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/gastroenteritis.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/greetings.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/jaundice.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/malaria.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chatbot_database" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot_database" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/burn.yml" beforeDir="false" afterPath="$PROJECT_DIR$/data/burn.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/dengue.yml" beforeDir="false" afterPath="$PROJECT_DIR$/data/dengue.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/doctor.yml" beforeDir="false" afterPath="$PROJECT_DIR$/data/doctor.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/fever.yml" beforeDir="false" afterPath="$PROJECT_DIR$/data/fever.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/main_1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pythonchat/pyclient.py" beforeDir="false" afterPath="$PROJECT_DIR$/pythonchat/pyclient.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/saved_conversations/10" beforeDir="false" afterPath="$PROJECT_DIR$/saved_conversations/10" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

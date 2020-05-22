@@ -1,71 +1,7 @@
 bot : Hi There! I am a medical chatbot. You can begin conversation by typing in a message and pressing enter.
 user : hi
-bot : - This is a symptom of fever, you should take a tablet of crocin after you have your meal.
-user : hi
-bot : - This is a symptom of fever, you should take a tablet of crocin after you have your meal.
-user : yes
-bot : - Get burnol from market and apply it on the wound.
-user : okay
-bot : - Yes, but nothing to worry about. You should consult a doctor. Should I book an appointment?
-user : okay
-bot : - Yes, but nothing to worry about. You should consult a doctor. Should I book an appointment?
-user : hi
-bot : - This is a symptom of fever, you should take a tablet of crocin after you have your meal.
-user : hi
-bot : - This is a symptom of fever, you should take a tablet of crocin after you have your meal.
-user : ye
-bot : - Get burnol from market and apply it on the wound.
-user : sn
-bot : - It happens. Pour Cold Water on the burn if the burn is small. Do you think its a severe burn?
-user : 
-bot : - okay. can you tell me what's wrong? what are your symptoms?
-user : 
-bot : - - can you book an apointment with a doctor?
-user : 
-bot : - I am offline. So I am present at the same location as you.
-user : 
-bot : - - i want to talk to a doctor
-user : 
-bot : - - Where are you from
-user : 
-bot : - - No, i am still not felling better after having sudafed tablet.
-user : 
-bot : - - thanks
-user : 
-bot : - - I took crocin.
-user : 
-bot : - all doctors are attending patients. we shall revert to your request soon. Do you want to book an appointment?
-user : 
-bot : - - Patient Name Date Time Doctor Hospital
-user : 
-bot : - - I got burn.
-user : 
-bot : - You should take a sudafed tablet after your meal.
-user : 
-bot : - - I am shivering.
-user : 
-bot : - - hi can i see a doctor ?
-user : 
-bot : - sorry, all doctors are occupied at the moment. We will connect you to a doctor soon. Do you want to book an appointment?
-user : 
-bot : - - I took the sudafed tablet.
-user : 
-bot : - I am interested in a wide variety of topics, and read rather a lot.
-user : 
-bot : - - Ok, i will take the crocin.
-user : 
-bot : - - i have a migrane headache
-user : 
-bot : - - My nose is itching.
-user : 
-bot : - - i feel great
-user : 
-bot : - - What are your interests
-user : 
-bot : - - I was cooking.
-user : 
-bot : yes
-user : hi
-bot : - This is a symptom of fever, you should take a tablet of crocin after you have your meal.
-user : fever
-bot : - good to know. how may i assist you then?
+bot : - Hello there, please tell be your problem.
+user : i have high fever and sore throat
+bot : - As you know world is dealing with a pandemic right now. Please answer these questions for evaluation. Do you have dry cough too?
+user : I dont remember. maybe.
+bot : - Your symptoms match the symptoms of COVID19, Would you like to consult a doctor?
