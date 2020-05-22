@@ -1,7 +1,1 @@
 bot : Hi There! I am a medical chatbot. You can begin conversation by typing in a message and pressing enter.
-user : hi
-bot : - Hello there, please tell be your problem.
-user : i have high fever and sore throat
-bot : - As you know world is dealing with a pandemic right now. Please answer these questions for evaluation. Do you have dry cough too?
-user : I dont remember. maybe.
-bot : - Your symptoms match the symptoms of COVID19, Would you like to consult a doctor?
