@@ -1,0 +1,17 @@
+- - I have sore throat, high fever.
+  - As you know world is dealing with a pandemic right now. Please answer these questions for evaluation. Do you have dry cough too?
+- - Yes, I think so.
+  - Have you gone out of your house in last 15 days or have been in contact with anyone not from the people you live with.
+- - I dont remember. maybe.
+  - Your symptoms match the symptoms of COVID19, Would you like to consult a doctor?
+- - Yes book an appointment.
+  - Ok please click on this link to <a>http://127.0.0.1:5000/appoinment</a> book appointment
+
+- - I have sore throat, high fever.
+  - As you know world is dealing with a pandemic right now. Please answer these questions for evaluation. Do you have dry cough too?
+- - Yes, I think so.
+  - Have you gone out of your house in last 15 days or have been in contact with anyone not from the people you live with.
+- - Yes a delivery guy.
+  - Your symptoms match the symptoms of COVID19, Would you like to consult a doctor?
+- - Yes book an appointment.
+  - Ok please click on this link to http://127.0.0.1:5000/appoinment book appointment

@@ -65,3 +65,7 @@ user :
 bot : - - I was cooking.
 user : 
 bot : yes
+user : hi
+bot : - This is a symptom of fever, you should take a tablet of crocin after you have your meal.
+user : fever
+bot : - good to know. how may i assist you then?

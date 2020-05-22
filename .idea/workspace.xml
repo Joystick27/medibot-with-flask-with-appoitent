@@ -20,11 +20,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="548e943f-8ac6-423d-84d4-3dd7f5793ff6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/data/acne.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/covid19.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/gastroenteritis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/greetings.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/jaundice.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/malaria.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chatbot_database" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot_database" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/college_doctor.py" beforeDir="false" afterPath="$PROJECT_DIR$/college_doctor.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/allergy.yml" beforeDir="false" afterPath="$PROJECT_DIR$/data/allergy.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/burn.yml" beforeDir="false" afterPath="$PROJECT_DIR$/data/burn.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/dengue.yml" beforeDir="false" afterPath="$PROJECT_DIR$/data/dengue.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/doctor.yml" beforeDir="false" afterPath="$PROJECT_DIR$/data/doctor.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/fever.yml" beforeDir="false" afterPath="$PROJECT_DIR$/data/fever.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/main_1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pythonchat/pyclient.py" beforeDir="false" afterPath="$PROJECT_DIR$/pythonchat/pyclient.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -175,10 +184,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.main_1" />
-        <item itemvalue="Python.college_doctor" />
         <item itemvalue="Python.train" />
         <item itemvalue="Python.pyclient" />
         <item itemvalue="Python.pyserve" />
+        <item itemvalue="Python.college_doctor" />
       </list>
     </recent_temporary>
   </component>
@@ -208,25 +217,25 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1899" height="181" key="GridCell.Tab.0.bottom" timestamp="1590051270313">
+    <state width="1899" height="173" key="GridCell.Tab.0.bottom" timestamp="1590084777286">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1899" height="181" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1590051270313" />
+    <state width="1899" height="173" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1590084777286" />
     <state width="1899" height="181" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1590044905628" />
-    <state width="1899" height="181" key="GridCell.Tab.0.center" timestamp="1590051270312">
+    <state width="1899" height="173" key="GridCell.Tab.0.center" timestamp="1590084777286">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1899" height="181" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1590051270312" />
+    <state width="1899" height="173" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1590084777286" />
     <state width="1899" height="181" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1590044905628" />
-    <state width="1899" height="181" key="GridCell.Tab.0.left" timestamp="1590051270312">
+    <state width="1899" height="173" key="GridCell.Tab.0.left" timestamp="1590084777286">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1899" height="181" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1590051270312" />
+    <state width="1899" height="173" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1590084777286" />
     <state width="1899" height="181" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1590044905627" />
-    <state width="1899" height="181" key="GridCell.Tab.0.right" timestamp="1590051270313">
+    <state width="1899" height="173" key="GridCell.Tab.0.right" timestamp="1590084777286">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1899" height="181" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1590051270313" />
+    <state width="1899" height="173" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1590084777286" />
     <state width="1899" height="181" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1590044905628" />
     <state x="461" y="170" key="SettingsEditor" timestamp="1589806271035">
       <screen x="0" y="0" width="1920" height="1050" />

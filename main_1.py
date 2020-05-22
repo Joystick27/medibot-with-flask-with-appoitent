@@ -127,6 +127,7 @@ def doctor_login():
          cur.execute('select * from doctor where email="%s"' % email)
          s = cur.fetchall()
          print(s)
+         session['d_email'] = email
          session['doctors_name'] = s[0][1]
          return render_template('doctor_account.html', a=email,b=s)
       else:
@@ -228,17 +229,19 @@ def logout():
    session['logged_in'] = False
    return home()
 
+
 @app.route("/logoutd",methods = ['POST','GET'])
 def logoutd():
    conn = sqlite3.connect('chatbot_database')
    cur = conn.cursor()
    print('doctor logout')
    if request.method == 'POST':
-      email = request.form['email']
+      email = session['d_email']
+      print(email)
       cur.execute('update doctor set avaliability="false" where email="%s"' %email)
       conn.commit()
       session['logged_in_d'] = False
-      return home()
+   return home()
 
 @app.route("/get")
 def get_bot_response():
