@@ -196,6 +196,7 @@ def NaiveBayes():
 # gui_stuff------------------------------------------------------------------------------------
 
 
+
 root = Tk()
 root.configure(background='darkBlue')
 root.title("Disease Predictor")
@@ -283,6 +284,9 @@ S5En.grid(row=11, column=1)
 dst = Button(root, text="Predict",
              command=DecisionTree, bg="red", fg="white")
 dst.grid(row=8, column=3, padx=10)
+
+
+
 
 #rnf = Button(root, text="Random forest",
 #             command=randomforest, bg="red", fg="white")
