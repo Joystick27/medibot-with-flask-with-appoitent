@@ -1,6 +1,7 @@
 from tkinter import *
 import numpy as np
 import pandas as pd
+import csv
 from random import randrange as accur
 
 l1 = ['back_pain', 'constipation', 'abdominal_pain', 'diarrhoea', 'mild_fever', 'yellow_urine',
@@ -114,6 +115,11 @@ def DecisionTree():
     if (h == 'yes'):
         t1.delete("1.0", END)
         t1.insert(END, disease[a])
+        with open("medicine.csv",'r') as cv:
+          cvv=csv.reader(cv)
+          for row in cvv:
+            if row[0]==disease[a]:
+              t12.insert(END, row[1])
     else:
         t1.delete("1.0", END)
         t1.insert(END, "Not Found")
@@ -238,9 +244,13 @@ S5Lb = Label(root, text="Symptom 5----------------------------------->",
              fg="white", bg="darkBlue")
 S5Lb.grid(row=11, column=0, pady=10, sticky=W)
 
+ranfLb2 = Label(root, text="disease:", fg="white", bg="darkBlue")
+ranfLb2.grid(row=15, column=0, pady=10, sticky=W)
 
-# lrLb = Label(root, text="Decision Tree:", fg="white", bg="darkBlue")
-# lrLb.grid(row=15, column=0, pady=10, sticky=W)
+ranfLb1 = Label(root, text="medicine:", fg="white", bg="darkBlue")
+ranfLb1.grid(row=19, column=0, pady=10, sticky=W)
+
+ 
 
 #destreeLb = Label(root, text="Random Forest:", fg="white", #bg="darkBlue")
 #destreeLb.grid(row=17, column=0, pady=10, sticky=W)
@@ -283,7 +293,7 @@ dst.grid(row=8, column=3, padx=10)
 # lr.grid(row=10, column=3, padx=10)
 
 # textfileds
-t1 = Text(root, height=1, width=40, bg="white", fg="black")
+t1 = Text(root, height=1, width=100, bg="white", fg="black")
 t1.grid(row=15, column=1, padx=10)
 
 #t2 = Text(root, height=1, width=40, bg="white", fg="black")
@@ -291,5 +301,7 @@ t1.grid(row=15, column=1, padx=10)
 
 # t3 = Text(root, height=1, width=40, bg="white", fg="black")
 # t3.grid(row=19, column=1, padx=10)
+t12 = Text(root, height=1, width=100, bg="white", fg="black")
+t12.grid(row=19, column=1, padx=10)
 
 root.mainloop()
